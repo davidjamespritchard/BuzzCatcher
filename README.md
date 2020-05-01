@@ -9,7 +9,9 @@ LabView project for capturing vibrations from two sensors simultaneously. Used i
 
 To start with open the Buzz Data Collection project. Click on the *save_preview.vi* file and the *collection_main.vi* file. The *collection_main* file will be on the cRIO device, so use + to expand the cRIO to find the file.
 
-![Started](/images/settings1.png)
+
+![Started](/images/root.png)
+
 
 ### Setting the Parameters
 
