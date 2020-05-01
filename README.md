@@ -37,7 +37,7 @@ The first step is to enter the parameters into the two VIs.
 
 ### Starting Reading Data
 
-To start click **PLAY** on the top bar
+To start click **PLAY** on the top bar. The live data will then start to be displayed in the **LIVE** figure and the realised sampling rate and loop frequency will be displayed.
  
  
 ![Play](/images/play.png)
