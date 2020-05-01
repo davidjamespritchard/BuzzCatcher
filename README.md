@@ -6,7 +6,7 @@ LabView project for capturing vibrations from two sensors simultaneously. Used i
 ## To get started without understanding how it works
 
 
-Before starting set the *parameters*. 
+### Setting the Parameters
 
 * The **SAMPLING RATE** determines the number of samples the cRIO collects per second. 
 
@@ -26,17 +26,23 @@ Before starting set the *parameters*.
 ![Settings](/images/settings2.png)
 
 
+### Starting Reading Data
+
 To start click **PLAY** on the top bar
  
  
 ![Play](/images/play.png)
 
 
+### Collecting Samples
+
 To collect a sample, press the **COLLECT** button.
 
 
 ![Collect](/images/collect.png)
 
+
+### Saving or Discarding Samples
 
 After evaluating the collected data you can either SAVE the collected data or discard and replace it.
 To save the collected data, press the **SAVE** button.
