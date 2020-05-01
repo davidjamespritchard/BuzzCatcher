@@ -20,6 +20,7 @@ Before starting set the *parameters*.
 
 * The **FILE PATH** can be amended in the save_preview VI.
 
+
 ![Settings](/images/settings1.png)
 
 ![Settings](/images/settings2.png)
@@ -27,17 +28,22 @@ Before starting set the *parameters*.
 
 To start click **PLAY** on the top bar
  
+ 
 ![Play](/images/play.png)
 
 
 To collect a sample, press the **COLLECT** button.
- 
+
+
 ![Collect](/images/collect.png)
+
 
 After evaluating the collected data you can either SAVE the collected data or discard and replace it.
 To save the collected data, press the **SAVE** button.
  
+ 
 ![Save](/images/save.png)
 
-Otherwise click COLLECT to discard the current collected data and to take a new sample.
+
+Otherwise click **COLLECT** to discard the current collected data and to take a new sample.
 
