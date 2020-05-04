@@ -62,3 +62,63 @@ To save the collected data, press the **SAVE** button.
 
 Otherwise click **COLLECT** to discard the current collected data and to take a new sample.
 
+
+# Under the Hood
+
+## A Simplified View of How it Works
+
+### The LIVE loop
+
+Pressing **PLAY** starts data collection, feeding data into the **LIVE** data loop, which is displayed in the **LIVE figure**.
+The loop contains **X** samples, in which **X = SECONDS TO CAPTURE X SAMPLING RATE**.
+ 
+ 
+ ![StartLoop](/images/startLoop.png)
+ 
+ 
+When the loop is full, the size is kept at **X** samples by removing the oldest samples as new ones are added.
+
+
+![StartLoop2](/images/startLoop2.png)
+
+
+### Collecting Data and the EVALUATION loop
+
+When the collect button is pressed, new data continues to feed into the **LIVE** loop for **Y** samples (determined the **POST-CLICK SAMPLES** setting). 
+ 
+  
+ ![Collect1](/images/Collect1.png)
+ 
+ 
+Once **Y** new samples have been added (and **Y** *old* samples discarded) the data in the **LIVE** loop will move to the **EVALUATION** loop. 
+ 
+ 
+![Collect2](/images/Collect2.png)
+
+  
+Once all of the **LIVE** loop data has been transferred, the **EVALUATION** loop closes and the **LIVE** loop refills itself. 
+The collected sample can then be inspected on each channel individually (**CHANNEL 1** and **CHANNEL 2** figures).
+
+
+![Collect3](/images/Collect3.png)
+ 
+ 
+### Saving or Discarding Collected Data
+ 
+After evaluating the collected data you can either **SAVE** the collected data or discard and replace it.
+Pressing the **SAVE** button results in the collected data in the **EVALUATION** loop being packaged with data about the settings and sent to the PC.
+
+
+![Saving](/images/Save1.png)
+
+
+To discard and replace the collected data, simply press **COLLECT** again. This results in the previously collected data being discarded. 
+
+
+![Discard1](/images/Discard1.png)
+
+
+And a new set of collected data will be transferred from the **LIVE** data loop to the **EVALUATION** loop for inspection.
+
+
+![Discard2](/images/Discard2.png)
