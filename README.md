@@ -84,7 +84,7 @@ When the loop is full, the size is kept at **X** samples by removing the oldest 
 
 ### Collecting Data and the EVALUATION loop
 
-When the collect button is pressed, new data continues to feed into the **LIVE** loop for **Y** samples (determined the **POST-CLICK SAMPLES** setting). 
+When the collect button is pressed, new data continues to feed into the **LIVE** loop for **Y** samples (determined by the **POST-CLICK SAMPLES** setting). 
  
   
  ![Collect1](/images/Collect1.png)
